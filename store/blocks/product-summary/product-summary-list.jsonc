@@ -64,7 +64,6 @@
     "children": [
       "vtex.store-components:product-brand#summaryListDesktop",
       "product-summary-name#summaryListDesktop",
-      "flex-layout.col#productRating",
       "flex-layout.row#productSpecifications"
     ]
   },
@@ -130,9 +129,9 @@
   },
   "stack-layout#summaryListDesktop": {
     "children": [
-      "product-summary-image#summaryListDesktop",
-      "vtex.product-highlights@2.x:product-highlights#collection",
-      "modal-trigger#quickview" // Check quickview.jsonc
+      "product-summary-image#summaryListDesktop"
+      // "vtex.product-highlights@2.x:product-highlights#collection",
+      // "modal-trigger#quickview" // Check quickview.jsonc
     ]
   },
   "product-summary-image#summaryListDesktop": {
@@ -157,9 +156,9 @@
   },
   "stack-layout#summaryListMobile": {
     "children": [
-      "product-summary-image#summaryListMobile",
-      "vtex.product-highlights@2.x:product-highlights#collection",
-      "modal-trigger#quickview" // Check quickview.jsonc
+      "product-summary-image#summaryListMobile"
+      // "vtex.product-highlights@2.x:product-highlights#collection",
+      // "modal-trigger#quickview" // Check quickview.jsonc
     ]
   },
   "product-summary-image#summaryListMobile": {
@@ -188,8 +187,7 @@
     },
     "children": [
       "vtex.store-components:product-brand#summaryListMobile",
-      "product-summary-name#summaryListMobile",
-      "product-rating-inline"
+      "product-summary-name#summaryListMobile"
     ]
   },
   "flex-layout.col#summaryDownDetailsListMobile": {
